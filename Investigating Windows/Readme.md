@@ -4,22 +4,26 @@
 > A windows machine has been hacked, it is your job to go investigate this windows machine and find clues to what the hacker might have done.
 >
 ### What is the version and year of the windows machine?
-![Windows Version and Year](https://github.com/user-attachments/assets/3af899dc-646a-4e3e-a97b-c00957aa68c5)
+First, I need to log in as administrator to view the sensitive information.<br> 
+> To find the windows version and year I must open Windows PowerShell and use the command ```systeminfo```.<br>OS Name lists the windows version and year.
 
+![Windows Version and Year](https://github.com/user-attachments/assets/3af899dc-646a-4e3e-a97b-c00957aa68c5)
 
 __Answer: Windows Server 2016__
 
 
 ### Which user logged in last?
-![Last User Login](https://github.com/user-attachments/assets/f3daeb63-2d51-4f6e-8eaf-128628e78647)
+> I need to see what users have access to this machine and find who was logged most previously. For this I use the command ```net user```<br>Below I can see that it was Administrator.
 
+![Last User Login](https://github.com/user-attachments/assets/f3daeb63-2d51-4f6e-8eaf-128628e78647)
 
 __Answer: Administrator__
 
 
 ### When did John log onto the system last?
-![John Last Login](https://github.com/user-attachments/assets/074c2f19-14d7-439d-bfcc-f78a97535468)
+> I use the same command as before but specify the name of the user with command ```net user John```
 
+![John Last Login](https://github.com/user-attachments/assets/074c2f19-14d7-439d-bfcc-f78a97535468)
 
 __Answer: 03/02/2019 5:48:32 PM__
 

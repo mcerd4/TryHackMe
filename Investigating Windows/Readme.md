@@ -1,51 +1,69 @@
-# Incident Response & Forensics - Investigating Windows
-## A windows machine has been hacked, its your job to go investigate this windows machine and find clues to what the hacker might have done.
+# Incident Response & Forensics
+## Challenge: [Investigating Windows](https://tryhackme.com/r/room/investigatingwindows) 
+Description: A windows machine has been hacked, its your job to go investigate this windows machine and find clues to what the hacker might have done.
 
-Whats the version and year of the windows machine?
-- Windows Server 2016
+### Whats the version and year of the windows machine?
 
-Which user logged in last?
-- Administrator
+__Answer: Windows Server 2016__
 
-When did John log onto the system last?
-- 03/02/2019 5:48:32 PM
+### Which user logged in last?
 
-What IP does the system connect to when it first starts?
+
+__Answer: Administrator__
+
+### When did John log onto the system last?
+
+
+__Answer: 03/02/2019 5:48:32 PM__
+
+### What IP does the system connect to when it first starts?
+
 The Registry Editor window will pop up. Follow this path, HKEY_LOCAL_MACHINE > SOFTWARE > Microsoft > Windows > CurrentVersion > Run. Once you reach that location, you will see two values. The UpdateSvc looks sus, checking it out reveals the IP address that the remote machine connects to when it starts up.
-- 10.34.2.3
+__Answer: 10.34.2.3__
 
-What two accounts had administrative privileges (other than the Administrator user)?
-- Guest Jenny
+### What two accounts had administrative privileges (other than the Administrator user)?
 
-Whats the name of the scheduled task that is malicous.
-- Clean file system
+__Answer: Jenny Guest__
 
-What file was the task trying to run daily?
-- nc.ps1
+### Whats the name of the scheduled task that is malicous.
 
-What port did this file listen locally for?
-- 1348
+__Answer: Clean file system__
 
-When did Jenny last logon?
-- Never
+### What file was the task trying to run daily?
 
-At what date did the compromise take place?
-- 03/02/2019
+__Answer: nc.ps1__
 
-At what time did Windows first assign special privileges to a new logon?
-- 03/02/2019 4:04:49 PM
+### What port did this file listen locally for?
 
-What tool was used to get Windows passwords?
-- Mimikatz
+__Answer: 1348__
 
-What was the attackers external control and command servers IP?
-- 76.32.97.132
+### When did Jenny last logon?
 
-What was the extension name of the shell uploaded via the servers website?
-- .jsp
+__Answer: Never__
 
-What was the last port the attacker opened?
-- 1337
+### At what date did the compromise take place?
 
-Check for DNS poisoning, what site was targeted?
-- google.com
+__Answer: 03/02/2019__
+
+### At what time did Windows first assign special privileges to a new logon?
+
+__Answer: 03/02/2019 4:04:49 PM__
+
+### What tool was used to get Windows passwords?
+
+__Answer: Mimikatz__
+
+### What was the attackers external control and command servers IP?
+
+__Answer: 76.32.97.132__
+
+### What was the extension name of the shell uploaded via the servers website?
+
+__Answer: .jsp__
+
+### What was the last port the attacker opened?
+
+__1337__
+
+### Check for DNS poisoning, what site was targeted?
+__google.com__

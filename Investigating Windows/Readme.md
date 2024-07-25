@@ -28,8 +28,6 @@ __Answer: 03/02/2019 5:48:32 PM__
 ![IP](https://github.com/user-attachments/assets/f246e1a2-26f2-40a9-a471-b739013f12ef)
 
 
-> The Registry Editor window will pop up. Follow this path, HKEY_LOCAL_MACHINE > SOFTWARE > Microsoft > Windows > CurrentVersion > Run. Once you reach that location, you will see two values. The UpdateSvc looks sus, checking it out reveals the IP address that the remote machine connects to when it starts up.
->
 __Answer: 10.34.2.3__
 
 

@@ -5,7 +5,7 @@
 >
 ### What is the version and year of the windows machine?
 First, I need to log in as administrator to view the sensitive information.<br> 
-> To find the windows version and year I must open Windows PowerShell and use the command ```systeminfo```.<br>OS Name lists the windows version and year.
+> To find the windows version and year I must open Windows PowerShell and use the command ```systeminfo```.<br>I see the info listed in OS name.
 
 ![Windows Version and Year](https://github.com/user-attachments/assets/3af899dc-646a-4e3e-a97b-c00957aa68c5)
 
@@ -13,7 +13,7 @@ __Answer: Windows Server 2016__
 
 
 ### Which user logged in last?
-> I need to see what users have access to this machine and find who was logged most previously. For this I use the command ```net user```<br>Below I can see that it was Administrator.
+> First, I need to see what users have access to this machine then find who logged in most previously. For this I use the command ```net user```<br>Below I can see that it was Administrator.
 
 ![Last User Login](https://github.com/user-attachments/assets/f3daeb63-2d51-4f6e-8eaf-128628e78647)
 
@@ -29,6 +29,8 @@ __Answer: 03/02/2019 5:48:32 PM__
 
 
 ### What IP does the system connect to when it first starts?
+
+
 ![IP](https://github.com/user-attachments/assets/f246e1a2-26f2-40a9-a471-b739013f12ef)
 
 

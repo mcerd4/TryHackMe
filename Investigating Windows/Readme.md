@@ -11,6 +11,7 @@ When did John log onto the system last?
 - 03/02/2019 5:48:32 PM
 
 What IP does the system connect to when it first starts?
+The Registry Editor window will pop up. Follow this path, HKEY_LOCAL_MACHINE > SOFTWARE > Microsoft > Windows > CurrentVersion > Run. Once you reach that location, you will see two values. The UpdateSvc looks sus, checking it out reveals the IP address that the remote machine connects to when it starts up.
 - 10.34.2.3
 
 What two accounts had administrative privileges (other than the Administrator user)?

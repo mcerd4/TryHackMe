@@ -1,2 +1,2 @@
-### TryHackMe Capture the flag
-Documentation of steps taken to solve a CTF challenge. Includes step-by-step solutions and screenshots to illustrate the process.
+### TryHackMe is an online, cloud-based, cybersecurity training platform.
+I have documented my step-by-step solutions and screenshots to illustrate the process.

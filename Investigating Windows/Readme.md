@@ -3,7 +3,7 @@
 > Description:<br>
 > A windows machine has been hacked, its your job to go investigate this windows machine and find clues to what the hacker might have done.
 >
-### Whats the version and year of the windows machine?
+### What is the version and year of the windows machine?
 ![Windows Version and Year](https://github.com/user-attachments/assets/3af899dc-646a-4e3e-a97b-c00957aa68c5)
 
 
@@ -40,7 +40,7 @@ __Answer: 10.34.2.3__
 __Answer: Jenny Guest__
 
 
-### Whats the name of the scheduled task that is malicous?
+### What is the name of the scheduled task that is malicous?
 ![Malicious Task](https://github.com/user-attachments/assets/ff193907-f97c-45db-a33a-13a298f419e1)
 
 

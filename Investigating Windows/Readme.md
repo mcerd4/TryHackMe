@@ -1,7 +1,7 @@
 # Incident Response & Forensics
 ## Challenge: [Investigating Windows](https://tryhackme.com/r/room/investigatingwindows) 
 > Description:<br>
-> A windows machine has been hacked, its your job to go investigate this windows machine and find clues to what the hacker might have done.
+> A windows machine has been hacked, it is your job to go investigate this windows machine and find clues to what the hacker might have done.
 >
 ### What is the version and year of the windows machine?
 ![Windows Version and Year](https://github.com/user-attachments/assets/3af899dc-646a-4e3e-a97b-c00957aa68c5)

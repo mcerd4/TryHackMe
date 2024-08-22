@@ -1,6 +1,6 @@
 # Incident Response Report: Investigating Windows  
 
-**Date:** July 24, 2024  
+**Date:** July 25, 2024  
 **Prepared by:** Mariela C.  
 **Incident ID:** 2024-WND-01
 

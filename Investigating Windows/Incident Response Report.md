@@ -1,4 +1,8 @@
-# Incident Response Report: Investigating Windows
+# Incident Response Report: Investigating Windows  
+
+**Date:** July 24, 2024  
+**Prepared by:** Mariela C.  
+**Incident ID:** 2024-WND-01
 
 ## 1. Executive Summary
 On July 25, 2024, a security incident was identified during the "Investigating Windows" Capture The Flag (CTF) challenge on TryHackMe. A Windows Server 2016 machine had been compromised, and the objective was to investigate the system to determine the actions taken by the attacker. This report details the findings, methods used to uncover the malicious activity, and recommendations for preventing future incidents.

@@ -16,15 +16,15 @@ On July 25, 2024, a security incident was identified during the "Investigating W
 ## 3. Detection and Identification
 ### Detection Method:
 The incident was detected during a CTF challenge, where participants were tasked with investigating the compromised Windows machine. Key findings included:
-- **Windows Version:** The machine was identified as Windows Server 2016 using the systeminfo command in PowerShell.
-- **Last User Login:** The last user to log in was the Administrator.
-- **User Account Access:** The net user command revealed that the "Administrator" was the last user to access the system.
+- **Failed Logins:** Multiple failed login attempts were detected, indicating a brute-force attack on the RDP service.
+- **PowerShell Execution:** Suspicious PowerShell commands were executed, indicating possible lateral movement and privilege escalation.
+- **Unusual Network Activity:** Outbound connections to an unknown IP address were observed, indicating potential data exfiltration.
 
 ### Initial Response:
 Upon detection, the following steps were taken:
-- Collected logs and evidence from the system, including user activity, scheduled tasks, and network connections.
-- Isolated the machine from the network to prevent further data exfiltration.
-- Began a detailed forensic investigation to identify the scope and impact of the breach.
+- Isolated the compromised server from the network to prevent further unauthorized access.
+- Initiated an investigation to identify the attack vector and scope of the breach.
+- Collected relevant logs and evidence for analysis.
 
 ## 4. Investigation Findings
 - **Windows Version and Year:** Windows Server 2016

@@ -7,10 +7,10 @@
 ## 1. Executive Summary
 On July 25, 2024, a security incident was identified during the "Investigating Windows" Capture The Flag (CTF) challenge on TryHackMe. A Windows Server 2016 machine had been compromised, and the objective was to investigate the system to determine the actions taken by the attacker. This report details the findings, methods used to uncover the malicious activity, and recommendations for preventing future incidents.
 
-## 2. Incident Description
-- Challenge Name: Investigating Windows
-- Affected System: Windows Server 2016 (Hostname: WIN-CTF01)
-- Nature of Incident: Unauthorized access, malware installation, and data exfiltration
+## 2. Incident Description  
+**Challenge Name:** Investigating Windows  
+**Affected System:** Windows Server 2016 (Hostname: WIN-CTF01)  
+**Nature of Incident:** Unauthorized access, malware installation, and data exfiltration
 
 ### Summary of Events:
 - The CTF involved compromising a Windows server to capture specific flags representing sensitive information.

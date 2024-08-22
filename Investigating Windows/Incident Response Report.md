@@ -9,6 +9,7 @@ On July 25, 2024, a security incident was identified during the "Investigating W
 
 ## 2. Incident Description  
 **Challenge Name:** Investigating Windows  
+**Date of Incident:** July 25, 2024  
 **Affected System:** Windows Server 2016 (Hostname: WIN-CTF01)  
 **Nature of Incident:** Unauthorized access, malware installation, and data exfiltration
 

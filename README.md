@@ -1,2 +1,2 @@
-### TryHackMe is an online, cloud-based, cybersecurity training platform.
-Description of the challenge, the methods and tools I used to solve it, and detailed steps explaining how I arrived at the solution. These documents help me deepen my understanding and keep a record for future reference.
+## TryHackMe is a cloud-based cybersecurity training platform that provides a comprehensive online environment for skill development.  
+I document each challenge by detailing the problem, the methodologies and tools employed in my approach, and a step-by-step explanation of how I arrived at the solution. These records not only enhance my understanding but also serve as valuable references for future use.

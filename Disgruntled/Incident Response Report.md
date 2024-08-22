@@ -18,28 +18,28 @@ On July 24, 2024, a security investigation was initiated following the arrest of
 - The investigation revealed unauthorized access to sensitive data, the creation of malicious files, and the manipulation of system settings.
 
 ## 3. Detection and Identification
-**Detection Method:**  
+### Detection Method:  
 The incident was detected during the "Disgruntled" CTF challenge, which required participants to investigate potential malicious actions on a compromised Linux system. Key findings included:
 - **User Creation:** A new user named "it-admin" was created after the installation of a suspicious package.
 - **Sudoers File Update:** The sudoers file was updated on December 28, at 06:27:34, granting the "it-admin" user administrative privileges.
 
-**Initial Response:**  
+### Initial Response:
 Upon detection, the following steps were taken:
 - Isolated the system from the network to prevent further damage and data exfiltration.
 - Conducted a forensic analysis to identify the extent of the damage and the methods used by the attacker.
 - Collected and preserved all relevant evidence for further investigation.
 
 ## 4. Investigation Findings
-**Unauthorized User Activity:**
+### Unauthorized User Activity:
 - **User Involved:** John Doe (disgruntled employee)
 - **Actions Taken:** Unauthorized access to sensitive directories, creation of malicious scripts, and modification of system settings.
 
-**Key Indicators of Compromise:**
+### Key Indicators of Compromise:
 - **Malicious Files Created:** Several PowerShell scripts designed to alter system settings and exfiltrate data.
 - **System Logs:** Evidence of log tampering, including the deletion of security logs to cover tracks.
 - **Data Manipulation:** The attacker changed user permissions, granting themselves elevated privileges to execute malicious activities.
 
-**Suspicious Scheduled Task:**
+### Suspicious Scheduled Task:
 - **Task Name:** CleanupTemp
 - **Task Description:** A malicious scheduled task designed to execute a PowerShell script (`cleanup.ps1`) that deleted key system logs and files at regular intervals.
 
@@ -53,20 +53,20 @@ Upon detection, the following steps were taken:
 - **Scheduled Trigger Time for Malicious File:** 08:00 AM
 
 ## 5. Impact Assessment
-**Data Compromised:**
+### Data Compromised:
 - The malicious script, bomb.sh, was designed to execute a potentially destructive payload that would create a file named `goodby.txt`, signifying the completion of the malicious activity.
 - The script's relocation to `/bin/os-update.sh` indicates an attempt to disguise it as a legitimate system update file, increasing the risk of undetected execution.
 
-**Operational Impact:**
+### Operational Impact:
 - The scheduled execution of the script at 08:00 AM could have led to significant disruption of services, data corruption, or further unauthorized access to the system.
 
 ## 6. Mitigation and Containment
-**Immediate Actions Taken:**
+### Immediate Actions Taken:
 - The `it-admin` user account was disabled and removed from the sudoers file to prevent further unauthorized access.
 - The malicious script located at `/bin/os-update.sh` was deleted, and the system was scanned for any additional unauthorized files or activities.
 - Network access was restricted to limit any potential data exfiltration or further system compromise.
 
-**Long-term Recommendations:**
+### Long-term Recommendations:
 - Implement strict controls over user account creation and privilege escalation, ensuring all administrative changes are logged and reviewed regularly.
 - Enhance monitoring for unauthorized command execution, particularly commands like `curl`, which can be used to download and execute malicious files.
 - Conduct regular security audits and vulnerability assessments to identify and address potential weaknesses in the system.
